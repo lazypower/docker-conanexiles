@@ -2,7 +2,7 @@ FROM ubuntu:xenial
 
 MAINTAINER Paul Steinlechner
 
-ENV TIMEZONE=Europe/Vienna DEBIAN_FRONTEND=noninteractive
+ENV TIMEZONE=America/Chicago DEBIAN_FRONTEND=noninteractive
 
 RUN dpkg --add-architecture i386 && \
     apt-get update && \
